@@ -12,6 +12,10 @@ body {
     box-sizing: border-box;
     list-style-type: none;
 }
+a {
+    text-decoration: none;
+    color: #020202 ;
+}
 img{
     max-width:100%; /*画像が親要素からはみ出すのを防ぐ*/
     height:auto;
@@ -45,6 +49,21 @@ nav ul{
 nav ul li {
     margin-right: 20px;
 }
+/*===
+main
+===*/
+main h1 {
+    text-align: center;
+    font-size: 24px;
+    padding: 16px 0;
+}
+.user-icon {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+background-color: #aadf8e;}
 /*===
 footer
 ===*/
